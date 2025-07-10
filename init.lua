@@ -1,3 +1,5 @@
-require ('keymaps')
-require ('options')
+require ('lua.keymaps')
+require ('lua.options')
 require ('plugins.lazy')
+require ('plugins.options')
+require ('plugins.keymaps')
