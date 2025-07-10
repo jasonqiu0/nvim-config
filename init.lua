@@ -1,3 +1,3 @@
 require ('keymaps')
 require ('options')
-require ('lazy')
+require ('plugins.lazy')
