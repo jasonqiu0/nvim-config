@@ -26,9 +26,9 @@ vim.o.splitbelow = true
 
 vim.o.list = true
 vim.opt.listchars = { tab = "│ ", trail = "·", nbsp = "␣" }
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4
-vim.opt.softtabstop = 4
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.softtabstop = 2
 
 vim.o.inccommand = "split"
 

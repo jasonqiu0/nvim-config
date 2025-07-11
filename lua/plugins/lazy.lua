@@ -57,6 +57,14 @@ require("lazy").setup({
 		end,
 	},
 
+	{
+		"nvim-lualine/lualine.nvim",
+		event = "VeryLazy", -- defer loading until just before UI is drawn
+		dependencies = { "nvim-tree/nvim-web-devicons" }, -- pretty glyphs in the bar
+		opts = function()
+			-- see §2 for the full options table
+		end,
+	},
 	-- indent line
 	{
 		"lukas-reineke/indent-blankline.nvim",
