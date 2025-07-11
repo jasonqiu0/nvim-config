@@ -57,6 +57,7 @@ require("lazy").setup({
 		end,
 	},
 
+	-- lualine
 	{
 		"nvim-lualine/lualine.nvim",
 		event = "VeryLazy", -- defer loading until just before UI is drawn
@@ -79,6 +80,15 @@ require("lazy").setup({
 		opts = {},
 	},
 
+	-- highlight TODO:
+	{
+		"folke/todo-comments.nvim",
+		event = "VimEnter",
+		dependencies = { "nvim-lua/plenary.nvim" },
+		opts = { signs = false },
+	},
+
+	-- whichkey
 	{
 		"folke/which-key.nvim",
 		event = "VimEnter",
